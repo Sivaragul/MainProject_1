@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProject1", "MainProject1\MainProject1.csproj", "{C50EA9FF-2BAB-4162-A703-7207DC19B4AE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CFF6295-46B5-49DC-9D0F-B0A4DD6E051E} = {6CFF6295-46B5-49DC-9D0F-B0A4DD6E051E}
+		{B04A7ECE-23C9-4327-BCB1-16AF873B8C4C} = {B04A7ECE-23C9-4327-BCB1-16AF873B8C4C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Library", "DAL_Library\DAL_Library.csproj", "{6CFF6295-46B5-49DC-9D0F-B0A4DD6E051E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper_Library", "Helper_Library\Helper_Library.csproj", "{B04A7ECE-23C9-4327-BCB1-16AF873B8C4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CFF6295-46B5-49DC-9D0F-B0A4DD6E051E} = {6CFF6295-46B5-49DC-9D0F-B0A4DD6E051E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
